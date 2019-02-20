@@ -27,6 +27,9 @@
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle/train/ruby
   - https://www.codewars.com/kata/pascals-triangle-number-2/ruby
-  
+ 
+- 5kyu
+  - https://www.codewars.com/kata/weight-for-weight/ruby  
+
 - 4kyu
   - https://www.codewars.com/kata/strings-mix/ruby   

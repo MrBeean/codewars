@@ -1,5 +1,13 @@
 # https://www.codewars.com/kata/simple-fun-number-122-string-constructing
 def constructing(string1, string2)
+  count = 0
+
+  return count if string1 == string2
+
+  string = ''
+  p string += string1
+    count += 1
+
   # 1 Сравнить две строки
   # 2 при совпадении возвращаем 0
   # 3 Ввести переменную,
@@ -11,10 +19,15 @@ def constructing(string1, string2)
   #
   #
   # А что если вначале удалять по одному символу а после сравнивать
-
+  p '-----COUNT-RESULT------'
+  p count
 end
 
-constructing("ab", "abbaab")
+constructing('abab', 'abbaab')
+
+'aba' -> 'abaa'
+
+'aba' -> 'abaaba' -> 'abaab' -> 'abaa'
 
 # BEST practice
 #
