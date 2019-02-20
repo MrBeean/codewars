@@ -1,3 +1,4 @@
+# TODO решить
 # https://www.codewars.com/kata/simple-fun-number-122-string-constructing
 def constructing(string1, string2)
   count = 0
