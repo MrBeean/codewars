@@ -1,5 +1,6 @@
 
 ![](https://www.codewars.com/assets/logos/logo-square-red-big-d261c083345ce22e7749dc6b69549398.png)
+![](https://s8.hostingkartinok.com/uploads/images/2019/02/f4f07a3ac1e9d598d237fca3c81aabb4.jpg)
 
 ---
 
@@ -27,6 +28,7 @@
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle/train/ruby
   - https://www.codewars.com/kata/pascals-triangle-number-2/ruby
+  - https://www.codewars.com/kata/easy-balance-checking/train/ruby
  
 - 5kyu
   - https://www.codewars.com/kata/weight-for-weight/ruby  
