@@ -1,31 +1,36 @@
-class Array
-  # swap index of a & b of caller array
-  # pry>  [1, 2, 3, 4, 5].swap!(0, 4)
-  # pry>  [5, 2, 3, 4, 1]
-  def swap!(a, b)
-    self[a], self[b] = self[b], self[a]
-    self
-  end
-end
-
 def smallest(n)
-  current_sum = n
-  array = []
+  new_array = n.to_s.split('')
+  array = n.to_s.split('')
+  all_array = []
 
-  n.to_a.split('').each_char.with_index do |item, index|
-    i = n.to_a.split('').size
-    while i >=0
-
+  array.each_with_index do |number, index|
+    number = new_array.delete_at(index)
+    array.each_with_index do |el, i|
+      all_array << [new_array.insert(i, number).join('').to_i, index, i]
+      new_array.delete_at(i)
     end
-    array
+    new_array = n.to_s.split('')
   end
+
+  all_array.sort_by { |x| [x[0], x[1], x[2]] }[0]
 end
 
 
-smallest(261235) #--> [126235, 2, 0] or (126235, 2, 0) or "126235, 2, 0"
+p smallest(261235) #--> [126235, 2, 0] or (126235, 2, 0) or "126235, 2, 0"
+p smallest(296837) #--> [239687, 4, 1
+p smallest(935855753) #--> [358557539, 0, 8]
 
-# найти все возможные комбинации перестановки
-# каждый номер перестаить n раз, где n = длинна цифр
-# полученное число, отобрать в массив из чисел, где каждое число - это перестановка возможной комбинации
-# найти наименьшее
-#
+# BEST practice
+# ef smallest(n)
+#   result = [n]
+#   size = n.to_s.size
+#   size.times do |i1|
+#     size.times do |i2|
+#       digits = n.to_s
+#       x = digits.slice!(i1)
+#       digits.insert(i2, x)
+#       result = [digits.to_i, i1, i2] if digits.to_i < result.first
+#     end
+#   end
+#   result
+# end
