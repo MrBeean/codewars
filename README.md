@@ -36,6 +36,7 @@
   - https://www.codewars.com/kata/rot13-1/ruby
   - https://www.codewars.com/kata/find-the-smallest/ruby
   - https://www.codewars.com/kata/phone-directory/ruby
+  - https://www.codewars.com/kata/string-incrementer/train/ruby
 
 - 4kyu
   - https://www.codewars.com/kata/strings-mix/ruby
