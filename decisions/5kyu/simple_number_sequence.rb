@@ -1,4 +1,3 @@
-# https://www.codewars.com/kata/simple-number-sequence/train/ruby
 def find_next_number(array)
   i = 1
   while i < array.size
@@ -21,31 +20,35 @@ def missing s
   array = []
   s.size.times do |i|
     array << find_next_number(s)
+    s.shift(array[i].to_s.size) if array[i].to_s.size < s.size
     if array[i].to_s.size == s.size
-      array.pop
+      array << s.join.to_i
+      s = [nil]
     end
-
-  s.shift(array[i].to_s.size) if array[i].to_s.size < s.size
-
   end
-  p array
-  p s
-  p '--------------------------'
 
-  array.compact!
-  array << s.join.to_i
+  array.reject! { |c| c == 0 || c == nil }
   full_range = (array.first..array.last).to_a
-  (full_range - array).size
-  p array
-  p full_range
-  # p (full_range - array).empty? || (full_range - array).size >= 2 ? -1 : (full_range - array).first
-  p '================'
+  (full_range - array).empty? || (full_range - array).size >= 2 ? -1 : (full_range - array).first
 end
 
-# missing("134567")#,4)
-# missing("1234567")#,4)
-# missing("123467891011")#,4)
-# missing("998999100010011003")#,1002)
-# missing("8990919395")#,-1)
-# missing("9978997999809982")#,1002)
-missing("9899101102")#,100)
+p missing("123567")#,4)
+p missing("1234567")#,4)
+p missing("123467891011")#,4)
+p missing("998999100010011003")#,1002)
+p missing("8990919395")#,-1)
+p missing("9978997999809982")#,1002)
+p missing("9899101102")#,100)
+
+# BEST practice
+# def missing s
+#   (1..(s.size/2)).each do |i|
+#     (i..i+1).each do |j|
+#       ss, sss, s1, s2 = s.dup, s.dup, s[0,i], s[-j..-1]
+#       if ((s2.to_i-s1.to_i)*j) >= s.size && (s1..s2).one?{ |n| ss.delete_prefix!(n.to_s).nil? }
+#         (s1..s2).each{ |n| return n.to_i if sss.delete_prefix!(n.to_s).nil? }
+#       end
+#     end
+#   end
+#   -1
+# end
