@@ -9,12 +9,12 @@ def calculate_row(n)
     ret.push (previous[i] + previous[i + 1])
   end
 
-  return [1, ret, 1].flatten
+  [1, ret, 1].flatten
 end
 
 def pascalsTriangle(n)
   pascal_array = []
-  1.upto(n) {|i| pascal_array << calculate_row(i) }
+  1.upto(n) { |i| pascal_array << calculate_row(i) }
   pascal_array.flatten
 end
 
@@ -33,7 +33,6 @@ end
 #   end
 #   a
 # end
-
 
 p pascalsTriangle(2)
 p pascalsTriangle(4)

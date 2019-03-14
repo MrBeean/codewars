@@ -1,12 +1,12 @@
 def archive_intervals(investigated_element, intervals)
   archived_array = []
-    intervals.each do |arr|
-      if (arr[0]..arr[1]).cover?(investigated_element[0]) || (arr[0]..arr[1]).cover?(investigated_element[1])
-        investigated_element[0] = arr[0] >= investigated_element[0] ? investigated_element[0] : arr[0]
-        investigated_element[1] = arr[1] <= investigated_element[1] ? investigated_element[1] : arr[1]
-      end
-      archived_array << investigated_element
+  intervals.each do |arr|
+    if (arr[0]..arr[1]).cover?(investigated_element[0]) || (arr[0]..arr[1]).cover?(investigated_element[1])
+      investigated_element[0] = arr[0] >= investigated_element[0] ? investigated_element[0] : arr[0]
+      investigated_element[1] = arr[1] <= investigated_element[1] ? investigated_element[1] : arr[1]
     end
+    archived_array << investigated_element
+  end
   archived_array
 end
 

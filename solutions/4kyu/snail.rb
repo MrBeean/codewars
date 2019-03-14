@@ -1,12 +1,16 @@
+# Использована техника переворота блока из массива
+# метод .transpose
+# https://en.wikipedia.org/wiki/Transpose
+
 def snail(array)
   return [] if array.empty?
 
   correct_array = []
-  while array.length != 0
+  until array.empty?
     correct_array << array.shift
     array = array.transpose.reverse
   end
-  return correct_array.flatten
+  correct_array.flatten
 end
 
 # BEST practice

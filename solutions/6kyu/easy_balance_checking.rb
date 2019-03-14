@@ -1,20 +1,20 @@
 def balance(b)
-  all_money = b.scan(/\d+\.\d+/).map! { |sum| sum.to_f }
+  all_money = b.scan(/\d+\.\d+/).map!(&:to_f)
   balance = all_money.shift
-  original_sum = "Original Balance: #{'%.2f' % balance}\r\n"
+  original_sum = "Original Balance: #{format('%.2f', balance)}\r\n"
   money_sum = all_money.inject(:+).round(2)
   average_sum = (money_sum / all_money.size).round(2)
 
-  names = b.scan(/[a-zA-Z]|\d|\.|\s/).join('').split("\n").reject { |c| c.empty? }
+  names = b.scan(/[a-zA-Z]|\d|\.|\s/).join('').split("\n").reject(&:empty?)
   names.shift
-  names = names.each_with_index.map do |string,i|
+  names = names.each_with_index.map do |string, i|
     string = string.gsub(/\d+\.\d+/, '')
-    position = '%.2f' % (balance - all_money[i])
+    position = format('%.2f', (balance - all_money[i]))
     balance -= all_money[i]
-    string + "#{'%.2f' % all_money[i]} Balance #{position}"
+    string + "#{format('%.2f', all_money[i])} Balance #{position}"
   end
-  names << "Total expense  #{'%.2f' % money_sum}"
-  names << "Average expense  #{'%.2f' % average_sum}"
+  names << "Total expense  #{format('%.2f', money_sum)}"
+  names << "Average expense  #{format('%.2f', average_sum)}"
   original_sum + names.join("\r\n")
 end
 
@@ -32,7 +32,6 @@ b = "1233.00
 129 Market;! 128.00?;
 121 Gasoline;! 13.6?;"
 p balance(b)
-
 
 # BEST practice
 # def balance(b)

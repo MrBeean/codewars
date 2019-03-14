@@ -44,5 +44,7 @@
   - https://www.codewars.com/kata/strings-mix/ruby
   - https://www.codewars.com/kata/snail/ruby
   - https://www.codewars.com/kata/sum-of-intervals   
-  
+
+- 3kyu
+  - https://www.codewars.com/kata/calculator/train/ruby  
 ---

@@ -4,9 +4,9 @@ def increment_string(input)
   string + (numbers[0].to_i + 1).to_s.rjust(numbers[0].size, '0')
 end
 
-increment_string("foo")#, "foo1")
-increment_string("")#, "foobar002")
-increment_string("")#, "1")
+increment_string('foo') # , "foo1")
+increment_string('foobar001') # , "foobar002")
+increment_string('') # , "1")
 
 # Besr practice
 # def increment_string(input)

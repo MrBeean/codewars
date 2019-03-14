@@ -6,8 +6,8 @@ def phone(strng, num)
     temp << string.scan(/(\d{1,2})-(\d{1,3})-(\d{1,3})-(\d{1,4})/).join('-')
     string.gsub!(/(\d{1,2})-(\d{1,3})-(\d{1,3})-(\d{1,4})/, '')
     temp << string.scan(/(<[a-zA-Z]+>)|(<[a-zA-Z]+ [a-zA-Z]+>)|(<[a-zA-Z]+ [a-zA-Z']+>)/).flatten.compact[0].gsub(/<|>/, '')
-    string.gsub!(/(<[a-zA-Z]+>)|(<[a-zA-Z]+ [a-zA-Z]+>)|(<[a-zA-Z]+ [a-zA-Z']+>)/,'')
-    temp << string.gsub(/[_]/, ' ').gsub(/[!@%&$+;:*\/_\",?]/, '').split.join(' ')
+    string.gsub!(/(<[a-zA-Z]+>)|(<[a-zA-Z]+ [a-zA-Z]+>)|(<[a-zA-Z]+ [a-zA-Z']+>)/, '')
+    temp << string.gsub(/[_]/, ' ').gsub(%r{[!@%&$+;:*/_\",?]}, '').split.join(' ')
     array << temp
   end
 
@@ -37,11 +37,11 @@ string = "/+1-541-754-3010 156 Alphand_St. <J Steeve>\n 133, Green, Rd. <E Kustu
 "+1-099-500-8000 <Peter Crush> Labrador Bd.\n +1-931-512-4855 <William Saurin> Bison Street CQ-23071\n"\
 "<P Salinge> Main Street, +1-098-512-2222, Denve\n"
 
-p phone(string, "48-421-674-8974")# "Phone => 48-421-674-8974, Name => Anastasia, Address => Via Quirinal Roma")
-p phone(string,  "1-121-504-8974")#, "Phone => 1-121-504-8974, Name => Arthur Clarke, Address => San Antonio TT-45120")
-p phone(string, "1-098-512-2222")#, "Error => Too many people: 1-098-512-2222")$dr, "1-098-512-2222"), "Error => Too many people: 1-098-512-2222")
-p phone(string, "5-555-555-5555")#, "Error => Not found: 5-555-555-5555")
-p phone(string, "1-541-754-3010")#, "Phone => 1-541-754-3010, Name => J Steeve, Address => 156 Alphand St.")
+p phone(string, '48-421-674-8974') # "Phone => 48-421-674-8974, Name => Anastasia, Address => Via Quirinal Roma")
+p phone(string, '1-121-504-8974') # , "Phone => 1-121-504-8974, Name => Arthur Clarke, Address => San Antonio TT-45120")
+p phone(string, '1-098-512-2222') # , "Error => Too many people: 1-098-512-2222")$dr, "1-098-512-2222"), "Error => Too many people: 1-098-512-2222")
+p phone(string, '5-555-555-5555') # , "Error => Not found: 5-555-555-5555")
+p phone(string, '1-541-754-3010') # , "Phone => 1-541-754-3010, Name => J Steeve, Address => 156 Alphand St.")
 
 # BEST practice
 # def phone(strng, num)
