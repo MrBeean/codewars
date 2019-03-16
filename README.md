@@ -24,27 +24,28 @@
 Ниже список выполненных заданий с момента как начал их фиксировать:
 
 - 8kyu
-  - https://www.codewars.com/kata/no-zeros-for-heros/train/ruby
+  - https://www.codewars.com/kata/no-zeros-for-heros
 
 - 6kyu
-  - https://www.codewars.com/kata/pascals-triangle/train/ruby
-  - https://www.codewars.com/kata/pascals-triangle-number-2/ruby
-  - https://www.codewars.com/kata/easy-balance-checking/train/ruby
-  - https://www.codewars.com/kata/meeting/train/ruby
+  - https://www.codewars.com/kata/pascals-triangle
+  - https://www.codewars.com/kata/pascals-triangle-number-2
+  - https://www.codewars.com/kata/easy-balance-checking
+  - https://www.codewars.com/kata/meeting
   - https://www.codewars.com/kata/duplicate-encoder
  
 - 5kyu
-  - https://www.codewars.com/kata/weight-for-weight/ruby  
-  - https://www.codewars.com/kata/rot13-1/ruby
-  - https://www.codewars.com/kata/find-the-smallest/ruby
-  - https://www.codewars.com/kata/phone-directory/ruby
-  - https://www.codewars.com/kata/simple-number-sequence/train/ruby
-  - https://www.codewars.com/kata/string-incrementer/train/ruby
+  - https://www.codewars.com/kata/weight-for-weight  
+  - https://www.codewars.com/kata/rot13-1
+  - https://www.codewars.com/kata/find-the-smallest
+  - https://www.codewars.com/kata/phone-directory
+  - https://www.codewars.com/kata/simple-number-sequence
+  - https://www.codewars.com/kata/string-incrementer
 
 - 4kyu
-  - https://www.codewars.com/kata/strings-mix/ruby
-  - https://www.codewars.com/kata/snail/ruby
-  - https://www.codewars.com/kata/sum-of-intervals   
+  - https://www.codewars.com/kata/strings-mix
+  - https://www.codewars.com/kata/snail
+  - https://www.codewars.com/kata/sum-of-intervals
+  - https://www.codewars.com/kata/nesting-structure-comparison   
 
 - 3kyu
   - https://www.codewars.com/kata/calculator/train/ruby  
