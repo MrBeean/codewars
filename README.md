@@ -31,6 +31,7 @@
   - https://www.codewars.com/kata/pascals-triangle-number-2/ruby
   - https://www.codewars.com/kata/easy-balance-checking/train/ruby
   - https://www.codewars.com/kata/meeting/train/ruby
+  - https://www.codewars.com/kata/duplicate-encoder
  
 - 5kyu
   - https://www.codewars.com/kata/weight-for-weight/ruby  
