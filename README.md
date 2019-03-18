@@ -25,6 +25,9 @@
 
 - 8kyu
   - https://www.codewars.com/kata/no-zeros-for-heros
+  
+- 7kyu
+  - https://www.codewars.com/kata/the-lazy-startup-office
 
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle
@@ -40,6 +43,7 @@
   - https://www.codewars.com/kata/phone-directory
   - https://www.codewars.com/kata/simple-number-sequence
   - https://www.codewars.com/kata/string-incrementer
+  - https://www.codewars.com/kata/valid-parentheses
 
 - 4kyu
   - https://www.codewars.com/kata/strings-mix
