@@ -35,6 +35,7 @@
   - https://www.codewars.com/kata/easy-balance-checking
   - https://www.codewars.com/kata/meeting
   - https://www.codewars.com/kata/duplicate-encoder
+  - https://www.codewars.com/kata/take-a-ten-minute-walk
  
 - 5kyu
   - https://www.codewars.com/kata/weight-for-weight  
