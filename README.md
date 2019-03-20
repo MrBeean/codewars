@@ -45,6 +45,7 @@
   - https://www.codewars.com/kata/simple-number-sequence
   - https://www.codewars.com/kata/string-incrementer
   - https://www.codewars.com/kata/valid-parentheses
+  - https://www.codewars.com/kata/directions-reduction
 
 - 4kyu
   - https://www.codewars.com/kata/strings-mix
