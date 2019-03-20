@@ -8,18 +8,28 @@ def dirReduc(arr)
     WEST: 'EAST'
   }
 
-  return arr if arr.uniq.size == arr.size
-  arr.collect!
+  i = 0
+  count = arr.size
+  while i <= count do
+    return arr if arr[i].nil?
+    if directions[arr[i].to_sym] == arr[i + 1]
+      arr.delete_at(i)
+      arr.delete_at(i)
+      i -= 1
+    end
+    i += 1
+  end
 end
 
-# a = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
-# p dirReduc(a) # => ["WEST"]
-# u=["NORTH", "WEST", "SOUTH", "EAST"]
-# p dirReduc(u) # => ["NORTH", "WEST", "SOUTH", "EAST"])
-d = ["NORTH", "EAST", "NORTH", "EAST", "WEST", "WEST", "EAST", "EAST", "WEST", "SOUTH"]
-p dirReduc(d) # => ["NORTH", "EAST"]
-# нужно через рекурсию!
-#
+a = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
+p dirReduc(a) # => ["WEST"]
+u=["NORTH", "WEST", "SOUTH", "EAST"]
+p dirReduc(u) # => ["NORTH", "WEST", "SOUTH", "EAST"])
+d = ["NORTH", "WEST", "SOUTH", "SOUTH", "NORTH", "WEST", "EAST", "EAST", "NORTH", "EAST", "EAST", "WEST", "SOUTH", "SOUTH", "SOUTH"]
+p dirReduc(d) # => ["NORTH", "WEST", "SOUTH", "EAST", "NORTH", "EAST", "SOUTH", "SOUTH", "SOUTH"]
+##############################################
+# опять другой подход, удаляем только то что следует после (то что взаимоудаляется и челик стоит на месте)
+##############################################
 # Первая реализация
 # def dirReduc(arr)
 #   directions = {
@@ -42,4 +52,20 @@ p dirReduc(d) # => ["NORTH", "EAST"]
 #     i += 1
 #   end
 #   (new_arr << arr).flatten
+# end
+#
+# Вторая реализация
+# def dirReduc(arr)
+#   return arr if arr.uniq.size == arr.size
+#
+#   [%w(SOUTH NORTH), %w(WEST EAST)].each do |directions|
+#     count = arr.count(directions[0]) < arr.count(directions[1]) ? arr.count(directions[0]) : arr.count(directions[1])
+#     while count != 0
+#       arr.delete_at(arr.index(directions[0]))
+#       arr.delete_at(arr.index(directions[1]))
+#       count -= 1
+#     end
+#   end
+#
+#   arr
 # end
