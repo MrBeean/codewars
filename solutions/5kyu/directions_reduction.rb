@@ -1,5 +1,3 @@
-# https://www.codewars.com/kata/directions-reduction/train/ruby
-
 def dirReduc(arr)
   directions = {
     NORTH: 'SOUTH',
@@ -8,38 +6,39 @@ def dirReduc(arr)
     WEST: 'EAST'
   }
 
-  return arr if arr.uniq.size == arr.size
-  arr.collect!
+  i = 0
+  count = arr.size
+  while i <= count do
+    return arr if arr[i].nil?
+    if directions[arr[i].to_sym] == arr[i + 1]
+      arr.delete_at(i)
+      arr.delete_at(i)
+      i > 1 ? i -= 1 : i = 0
+    else
+      i += 1
+    end
+  end
 end
 
-# a = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
-# p dirReduc(a) # => ["WEST"]
-# u=["NORTH", "WEST", "SOUTH", "EAST"]
-# p dirReduc(u) # => ["NORTH", "WEST", "SOUTH", "EAST"])
-d = ["NORTH", "EAST", "NORTH", "EAST", "WEST", "WEST", "EAST", "EAST", "WEST", "SOUTH"]
-p dirReduc(d) # => ["NORTH", "EAST"]
-# нужно через рекурсию!
+a = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
+p dirReduc(a) # => ["WEST"]
+u=["NORTH", "WEST", "SOUTH", "EAST"]
+p dirReduc(u) # => ["NORTH", "WEST", "SOUTH", "EAST"])
+d = ["NORTH", "WEST", "SOUTH", "SOUTH", "NORTH", "WEST", "EAST", "EAST", "NORTH", "EAST", "EAST", "WEST", "SOUTH", "SOUTH", "SOUTH"]
+p dirReduc(d) # => ["NORTH", "WEST", "SOUTH", "EAST", "NORTH", "EAST", "SOUTH", "SOUTH", "SOUTH"]
+
+# BEST practice
+# OPPOSITE = {
+#   "NORTH" => "SOUTH",
+#   "SOUTH" => "NORTH",
+#   "EAST"  => "WEST",
+#   "WEST"  => "EAST"
+# }
 #
-# Первая реализация
 # def dirReduc(arr)
-#   directions = {
-#     NORTH: 'SOUTH',
-#     SOUTH: 'NORTH',
-#     EAST: 'WEST',
-#     WEST: 'EAST'
-#   }
-#
-#   return arr if arr.uniq.size == arr.size
-#   i = 0
-#   new_arr = []
-#   while i <= arr.size
-#     direction = arr.shift
-#     if arr.index(directions[direction.to_sym])
-#       arr.delete_at(arr.index(directions[direction.to_sym]))
-#     else
-#       new_arr << direction
-#     end
-#     i += 1
+#   stack = []
+#   arr.each do |dir|
+#     OPPOSITE[dir] == stack.last ? stack.pop : stack.push(dir)
 #   end
-#   (new_arr << arr).flatten
+#   stack
 # end
