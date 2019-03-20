@@ -33,6 +33,7 @@
   - https://www.codewars.com/kata/meeting
   - https://www.codewars.com/kata/duplicate-encoder
   - https://www.codewars.com/kata/take-a-ten-minute-walk
+  - https://www.codewars.com/kata/mexican-wave
  
 - 5kyu
   - https://www.codewars.com/kata/weight-for-weight  
