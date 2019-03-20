@@ -8,8 +8,9 @@ def dirReduc(arr)
 
   i = 0
   count = arr.size
-  while i <= count do
+  while i <= count
     return arr if arr[i].nil?
+
     if directions[arr[i].to_sym] == arr[i + 1]
       arr.delete_at(i)
       arr.delete_at(i)
@@ -20,11 +21,11 @@ def dirReduc(arr)
   end
 end
 
-a = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
+a = %w[NORTH SOUTH SOUTH EAST WEST NORTH WEST]
 p dirReduc(a) # => ["WEST"]
-u=["NORTH", "WEST", "SOUTH", "EAST"]
+u = %w[NORTH WEST SOUTH EAST]
 p dirReduc(u) # => ["NORTH", "WEST", "SOUTH", "EAST"])
-d = ["NORTH", "WEST", "SOUTH", "SOUTH", "NORTH", "WEST", "EAST", "EAST", "NORTH", "EAST", "EAST", "WEST", "SOUTH", "SOUTH", "SOUTH"]
+d = %w[NORTH WEST SOUTH SOUTH NORTH WEST EAST EAST NORTH EAST EAST WEST SOUTH SOUTH SOUTH]
 p dirReduc(d) # => ["NORTH", "WEST", "SOUTH", "EAST", "NORTH", "EAST", "SOUTH", "SOUTH", "SOUTH"]
 
 # BEST practice

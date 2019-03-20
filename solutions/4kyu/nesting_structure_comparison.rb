@@ -23,11 +23,10 @@ class Array
   end
 end
 
-
 # should return true
 p [].same_structure_as(1)
-p [1,1,1].same_structure_as([2,2,2])
-p [[[],[]]].same_structure_as([[1,1]])
+p [1, 1, 1].same_structure_as([2, 2, 2])
+p [[[], []]].same_structure_as([[1, 1]])
 
 # BEST practice
 # class Array

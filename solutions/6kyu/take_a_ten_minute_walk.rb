@@ -15,8 +15,8 @@ def isValidWalk(walk)
   position.zero?
 end
 
-p isValidWalk(['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's'])
-p isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e'])
+p isValidWalk(%w[n s n s n s n s n s])
+p isValidWalk(%w[w e w e w e w e w e w e])
 
 # BEST practice
 # def isValidWalk(walk)

@@ -37,6 +37,8 @@
   - https://www.codewars.com/kata/duplicate-encoder
   - https://www.codewars.com/kata/take-a-ten-minute-walk
   - https://www.codewars.com/kata/mexican-wave
+  - https://www.codewars.com/kata/find-the-missing-term-in-an-arithmetic-progression
+  - https://www.codewars.com/kata/framed-reflection
  
 - 5kyu
   - https://www.codewars.com/kata/weight-for-weight  
