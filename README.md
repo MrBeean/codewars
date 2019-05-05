@@ -28,6 +28,7 @@
   
 - 7kyu
   - https://www.codewars.com/kata/the-lazy-startup-office
+  - https://www.codewars.com/kata/unlucky-days
 
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle
