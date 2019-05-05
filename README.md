@@ -1,5 +1,5 @@
 
-![](https://www.codewars.com/assets/logos/logo-square-red-big-d261c083345ce22e7749dc6b69549398.png)
+![](https://www.codewars.com/assets/logos/logo-square-red-big-c74ae0e7a89b33acd3beb1f08229630391934650e3bbd30ddc40e8be5bbfc71e.png)
 ![](https://s8.hostingkartinok.com/uploads/images/2019/02/f4f07a3ac1e9d598d237fca3c81aabb4.jpg)
 
 ---
