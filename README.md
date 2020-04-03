@@ -1,5 +1,5 @@
 
-![](https://www.codewars.com/assets/logos/logo-square-red-big-d261c083345ce22e7749dc6b69549398.png)
+![](http://www.softlab.ntua.gr/~nickie/images/logo/codewars.png)
 ![](https://s8.hostingkartinok.com/uploads/images/2019/02/f4f07a3ac1e9d598d237fca3c81aabb4.jpg)
 
 ---
@@ -25,6 +25,7 @@
 
 - 8kyu
   - https://www.codewars.com/kata/no-zeros-for-heros
+  - https://www.codewars.com/kata/5ae62fcf252e66d44d00008e/ruby
   
 - 7kyu
   - https://www.codewars.com/kata/the-lazy-startup-office
