@@ -41,6 +41,7 @@
   - https://www.codewars.com/kata/mexican-wave
   - https://www.codewars.com/kata/find-the-missing-term-in-an-arithmetic-progression
   - https://www.codewars.com/kata/framed-reflection
+  - [simple_frequency_sort](https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc/ruby)
  
 - 5kyu
   - https://www.codewars.com/kata/weight-for-weight  
