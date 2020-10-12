@@ -43,6 +43,7 @@
   - https://www.codewars.com/kata/framed-reflection
   - [simple_frequency_sort](https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc/ruby)
   - [replace_with_alphabet_position JS](https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript)
+  - [sort_the_odd JS](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/javascript)
  
 - 5kyu
   - https://www.codewars.com/kata/weight-for-weight  
