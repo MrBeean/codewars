@@ -30,6 +30,7 @@
 - 7kyu
   - https://www.codewars.com/kata/the-lazy-startup-office
   - https://www.codewars.com/kata/unlucky-days
+  - [isograms JS](https://www.codewars.com/kata/54ba84be607a92aa900000f1/javascript)
 
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle
