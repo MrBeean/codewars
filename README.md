@@ -30,7 +30,6 @@
 - 7kyu
   - https://www.codewars.com/kata/the-lazy-startup-office
   - https://www.codewars.com/kata/unlucky-days
-  - [isograms JS](https://www.codewars.com/kata/54ba84be607a92aa900000f1/javascript)
 
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle
@@ -42,9 +41,10 @@
   - https://www.codewars.com/kata/mexican-wave
   - https://www.codewars.com/kata/find-the-missing-term-in-an-arithmetic-progression
   - https://www.codewars.com/kata/framed-reflection
+  - [isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1/javascript)
   - [simple_frequency_sort](https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc/ruby)
-  - [replace_with_alphabet_position JS](https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript)
-  - [sort_the_odd JS](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/javascript)
+  - [replace_with_alphabet_position](https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript)
+  - [sort_the_odd](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/javascript)
  
 - 5kyu
   - https://www.codewars.com/kata/weight-for-weight  
