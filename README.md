@@ -13,7 +13,7 @@
 - 7kyu, 8kyu - Новичек
 - 5kyu, 6kyu - Послушник
 - 3kyu, 4kyu - Компетентный
-- 1kyu, 2kyu - Умелдец
+- 1kyu, 2kyu - Умелец
 
 [Мой текущий ранг](https://www.codewars.com/users/MrBeean):
 
@@ -30,6 +30,8 @@
 - 7kyu
   - https://www.codewars.com/kata/the-lazy-startup-office
   - https://www.codewars.com/kata/unlucky-days
+  - [isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
+  - [sum even numbers](https://www.codewars.com/kata/586beb5ba44cfc44ed0006c3)
 
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle
@@ -41,7 +43,6 @@
   - https://www.codewars.com/kata/mexican-wave
   - https://www.codewars.com/kata/find-the-missing-term-in-an-arithmetic-progression
   - https://www.codewars.com/kata/framed-reflection
-  - [isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1/javascript)
   - [simple_frequency_sort](https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc/ruby)
   - [replace_with_alphabet_position](https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript)
   - [sort_the_odd](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/javascript)
