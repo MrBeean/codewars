@@ -33,6 +33,7 @@
   - [isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
   - [sum even numbers](https://www.codewars.com/kata/586beb5ba44cfc44ed0006c3)
   - [palindrome_chain_length copy](https://www.codewars.com/kata/525f039017c7cd0e1a000a26)
+  - [valid_spacing](https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
 
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle
