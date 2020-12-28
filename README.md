@@ -25,7 +25,8 @@
 
 - 8kyu
   - https://www.codewars.com/kata/no-zeros-for-heros
-  - https://www.codewars.com/kata/5ae62fcf252e66d44d00008e/ruby
+  - https://www.codewars.com/kata/5ae62fcf252e66d44d00008e
+  - [quarter_of_the_year](https://www.codewars.com/kata/5ce9c1000bab0b001134f5af)
   
 - 7kyu
   - https://www.codewars.com/kata/the-lazy-startup-office
