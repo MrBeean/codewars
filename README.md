@@ -26,7 +26,7 @@
 - 8kyu
   - [No_zeros_for_heros](solutions/8kyu/No_zeros_for_heros)
   - [Expressions_Matter](solutions/8kyu/Expressions_Matter)
-  - [quarter_of_the_year](https://www.codewars.com/kata/5ce9c1000bab0b001134f5af)
+  - [Quarter_of_the_year](solutions/8kyu/Quarter_of_the_year)
   
 - 7kyu
   - https://www.codewars.com/kata/the-lazy-startup-office

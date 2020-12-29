@@ -6,6 +6,6 @@ const quarterOf = (month) => {
 };
 
 // BEST practice
-// const quarterOf = m => Math.ceil(m/3);
+//
 
 console.log(quarterOf(11)) //=> 4
