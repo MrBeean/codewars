@@ -29,14 +29,14 @@
   - [Quarter_of_the_year](solutions/8kyu/Quarter_of_the_year)
   
 - 7kyu
-  - https://www.codewars.com/kata/the-lazy-startup-office
-  - https://www.codewars.com/kata/unlucky-days
-  - [isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
-  - [sum even numbers](https://www.codewars.com/kata/586beb5ba44cfc44ed0006c3)
-  - [palindrome_chain_length copy](https://www.codewars.com/kata/525f039017c7cd0e1a000a26)
-  - [valid_spacing](https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
-  - [unique_string_characters](https://www.codewars.com/kata/5a262cfb8f27f217f700000b)
-  - [max-min_arrays](https://www.codewars.com/kata/5a090c4e697598d0b9000004)
+  - [The_Lazy_Startup_Office](solutions/7kyu/The_Lazy_Startup_Office)
+  - [The_Lazy_Startup_Office](solutions/7kyu/Unlucky_Days)
+  - [Isograms](solutions/7kyu/Isograms)
+  - [Sum even numbers](solutions/7kyu/Sum_even_numbers)
+  - [Palindrome_chain_length](solutions/7kyu/Palindrome_chain_length)
+  - [Valid_Spacing](solutions/7kyu/Valid_Spacing)
+  - [Unique_string_characters](solutions/7kyu/Unique_string_characters)
+  - [Max_min_arrays](solutions/7kyu/Max_min_arrays)
 
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle
