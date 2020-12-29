@@ -24,7 +24,7 @@
 Ниже список выполненных заданий с момента как начал их фиксировать:
 
 - 8kyu
-  - https://www.codewars.com/kata/no-zeros-for-heros
+  - [No_zeros_for_heros](solutions/8kyu/No_zeros_for_heros)
   - https://www.codewars.com/kata/5ae62fcf252e66d44d00008e
   - [quarter_of_the_year](https://www.codewars.com/kata/5ce9c1000bab0b001134f5af)
   
