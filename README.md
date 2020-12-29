@@ -30,7 +30,7 @@
   
 - 7kyu
   - [The_Lazy_Startup_Office](solutions/7kyu/The_Lazy_Startup_Office)
-  - [The_Lazy_Startup_Office](solutions/7kyu/Unlucky_Days)
+  - [Unlucky_Days](solutions/7kyu/Unlucky_Days)
   - [Isograms](solutions/7kyu/Isograms)
   - [Sum even numbers](solutions/7kyu/Sum_even_numbers)
   - [Palindrome_chain_length](solutions/7kyu/Palindrome_chain_length)
