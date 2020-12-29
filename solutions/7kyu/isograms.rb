@@ -16,7 +16,7 @@ p is_isogram("") #true
 
 # BEST solution
 # приводим строку к нижнему регистру
-# разделяем на массив, находим уникальные
+# разделяем на массив, находим уникальные - метод uniq
 # сравниваем с эталоном
 def is_isogram_BEST_solution(string)
   string.downcase.chars.uniq == string.downcase.chars

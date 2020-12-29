@@ -36,6 +36,7 @@
   - [palindrome_chain_length copy](https://www.codewars.com/kata/525f039017c7cd0e1a000a26)
   - [valid_spacing](https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
   - [unique_string_characters](https://www.codewars.com/kata/5a262cfb8f27f217f700000b)
+  - [max-min_arrays](https://www.codewars.com/kata/5a090c4e697598d0b9000004)
 
 - 6kyu
   - https://www.codewars.com/kata/pascals-triangle

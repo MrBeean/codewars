@@ -23,7 +23,7 @@ function solve(a,b){
 }
 
 // BEST solution
-// Так же через filter c callback стрелочной функцией,
+// Так же через filter c callback и стрелочной функцией,
 // где проверяется вхождение фильтруемого элемента в строку a или строку b,
 // через функцию
 // function solve(a,b){
