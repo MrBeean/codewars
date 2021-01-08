@@ -37,6 +37,7 @@
   - [Valid_Spacing](solutions/7kyu/Valid_Spacing)
   - [Unique_string_characters](solutions/7kyu/Unique_string_characters)
   - [Max_min_arrays](solutions/7kyu/Max_min_arrays)
+  - [Tally_it_up](solutions/7kyu/Tally_it_up)
 
 - 6kyu
   - [Simple_frequency_sort](solutions/6kyu/Simple_frequency_sort)
