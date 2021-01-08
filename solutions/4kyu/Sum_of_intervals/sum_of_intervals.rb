@@ -34,8 +34,3 @@ p sum_of_intervals([[1, 5]]) #=> 4
 p sum_of_intervals([[1, 5], [6, 10]]) #=>  8
 p sum_of_intervals([[1, 5], [1, 5]]) #=>  4
 p sum_of_intervals([[1, 4], [7, 10], [3, 5]]) #=>  7
-
-# BEST practise LOL, так изящно (
-# def sum_of_intervals(intervals)
-#   intervals.map{|a| (a[0]...a[1]).to_a }.flatten.uniq.size
-# end

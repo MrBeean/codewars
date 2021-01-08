@@ -1,6 +1,3 @@
-# Использована рекурсия с передачей дополнительного параметра для сохранения результата
-# В лучшем решении не используется доп параметры, все построено на return и рекурсии
-
 class Array
   def same_structure_as(array, result = [])
     each_with_index do |element, i|
@@ -27,14 +24,3 @@ end
 p [].same_structure_as(1)
 p [1, 1, 1].same_structure_as([2, 2, 2])
 p [[[], []]].same_structure_as([[1, 1]])
-
-# BEST practice
-# class Array
-#
-#   def same_structure_as(a)
-#     return false if self.class!=a.class || size!=a.size
-#     a.each_index { |i| return false if self[i].class==Array && !self[i].same_structure_as(a[i]) }
-#     true
-#   end
-#
-# end

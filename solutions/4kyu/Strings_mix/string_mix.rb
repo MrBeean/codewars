@@ -30,19 +30,4 @@ def mix(s1, s2)
   answer.sort_by { |x| [-x.size, x[0], x[-1]] }.join('/')
 end
 
-# BEST practise
-# def mix(s1, s2)
-#   selection = ('a'..'z').to_a.select { |letter| s1.count(letter) > 1 || s2.count(letter) > 1 }
-#   selection.map! do |selection|
-#     if s1.count(selection) > s2.count(selection)
-#       "1:#{selection * s1.count(selection)}"
-#     elsif s1.count(selection) < s2.count(selection)
-#       "2:#{selection * s2.count(selection)}"
-#     else
-#       "=:#{selection * s1.count(selection)}"
-#     end
-#   end
-#   selection.sort_by { |x| [-x.size, x[0], x[-1]] }.join("/")
-# end
-
 mix('8yzmk5wjpp/hxpu7miic%bzfgQspsn', "Mewkb6yjhn'exls6tlpt<vdep:oyvk") #=> "1:pppp/2:eee/1:ii/1:mm/1:ss/1:zz/2:kk/2:ll/2:tt/2:vv/2:yy"

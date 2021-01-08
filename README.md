@@ -62,10 +62,10 @@
   - [Directions_reduction](solutions/5kyu/Directions_reduction)
 
 - 4kyu
-  - https://www.codewars.com/kata/strings-mix
-  - https://www.codewars.com/kata/snail
-  - https://www.codewars.com/kata/sum-of-intervals
-  - https://www.codewars.com/kata/nesting-structure-comparison   
+  - [Strings_mix](solutions/4kyu/Strings_mix)
+  - [Snail](solutions/4kyu/Snail)
+  - [Sum_of_intervals](solutions/4kyu/Sum_of_intervals)
+  - [Nesting_structure_comparison](solutions/4kyu/Nesting_structure_comparison))
 
 - 3kyu
   - https://www.codewars.com/kata/calculator/train/ruby  
