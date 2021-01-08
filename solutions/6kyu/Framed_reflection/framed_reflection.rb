@@ -7,16 +7,3 @@ def mirror(text)
 end
 
 mirror('Hello World') #=> "*********\n* olleH *\n* dlroW *\n*********"
-# ********
-# * olleH *
-# * dlroW *
-# *********
-
-# BEST practice
-# def mirror(text)
-#   words = text.reverse.split.reverse
-#   max = words.max_by(&:length).size
-#   border = '*' * (max + 4)
-#
-#   words.map{ |w| "* #{w.ljust(max)} *" }.unshift(border).push(border).join("\n")
-# end

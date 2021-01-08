@@ -39,18 +39,17 @@
   - [Max_min_arrays](solutions/7kyu/Max_min_arrays)
 
 - 6kyu
-  - https://www.codewars.com/kata/pascals-triangle
-  - https://www.codewars.com/kata/pascals-triangle-number-2
-  - https://www.codewars.com/kata/easy-balance-checking
-  - https://www.codewars.com/kata/meeting
-  - https://www.codewars.com/kata/duplicate-encoder
-  - https://www.codewars.com/kata/take-a-ten-minute-walk
-  - https://www.codewars.com/kata/mexican-wave
-  - https://www.codewars.com/kata/find-the-missing-term-in-an-arithmetic-progression
-  - https://www.codewars.com/kata/framed-reflection
-  - [simple_frequency_sort](https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc/ruby)
-  - [replace_with_alphabet_position](https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript)
-  - [sort_the_odd](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/javascript)
+  - [Simple_frequency_sort](solutions/6kyu/Simple_frequency_sort)
+  - [Replace_with_alphabet_position](solutions/6kyu/Replace_with_alphabet_position)
+  - [Sort_the_odd](solutions/6kyu/Sort_the_odd)
+  - [Pascals_triangle](solutions/6kyu/Pascals_triangle)
+  - [Easy_balance_checking](solutions/6kyu/Easy_balance_checking)
+  - [Meeting](solutions/6kyu/Meeting)
+  - [Duplicate_encoder](solutions/6kyu/Duplicate_encoder)
+  - [Take_a_ten_minute_walk](solutions/6kyu/Take_a_ten_minute_walk)
+  - [Mexican_wave](solutions/6kyu/Mexican_wave)
+  - [Find_the_missing_term_in_an_arithmetic_progression](solutions/6kyu/Find_the_missing_term_in_an_arithmetic_progression)
+  - [Framed_reflection](solutions/6kyu/Framed_reflection)
  
 - 5kyu
   - https://www.codewars.com/kata/weight-for-weight  

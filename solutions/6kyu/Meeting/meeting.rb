@@ -17,8 +17,3 @@ meeting(string) # =>
 # (TORNBULL, BARNEY)
 # (TORNBULL, BETTY)
 # (TORNBULL, BJON)"
-
-# BEST practice
-# def meeting(s)
-#   s.split(';').map {|el| '(' + el.split(':').reverse.join(', ').upcase+ ')'}.sort.join
-# end

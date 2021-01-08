@@ -1,7 +1,3 @@
-// Отсортировать только не четные числа в массиве
-// Задача на сортировки
-// BEST practice: Логика верна, не использовал имеющиеся методы
-
 function isOdd(n) {
   return Math.abs(n % 2) == 1;
 }
@@ -35,10 +31,3 @@ function sortArray(arr) {
 
 
 console.log(sortArray([5, 3, 2, 8, 1, 4]));
-
-
-// BEST practice
-// function sortArray(array) {
-//   const odd = array.filter((x) => x % 2).sort((a,b) => a - b);
-//   return array.map((x) => x % 2 ? odd.shift() : x);
-// }
