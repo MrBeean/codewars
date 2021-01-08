@@ -7,8 +7,3 @@ end
 increment_string('foo') # , "foo1")
 increment_string('foobar001') # , "foobar002")
 increment_string('') # , "1")
-
-# Besr practice
-# def increment_string(input)
-#   input.sub(/\d*$/) { |n| n.empty? ? 1 : n.succ }
-# end

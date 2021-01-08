@@ -42,12 +42,3 @@ p phone(string, '1-121-504-8974') # , "Phone => 1-121-504-8974, Name => Arthur C
 p phone(string, '1-098-512-2222') # , "Error => Too many people: 1-098-512-2222")$dr, "1-098-512-2222"), "Error => Too many people: 1-098-512-2222")
 p phone(string, '5-555-555-5555') # , "Error => Not found: 5-555-555-5555")
 p phone(string, '1-541-754-3010') # , "Phone => 1-541-754-3010, Name => J Steeve, Address => 156 Alphand St.")
-
-# BEST practice
-# def phone(strng, num)
-#   a = strng.scan(/.*#{num}.*/)
-#   return "Error => Too many people: #{num}" if a.size > 1
-#   return "Error => Not found: #{num}" if a.empty?
-#   a = a.first
-#   "Phone => #{num}, Name => #{a[/<(.*)>/, 1]}, Address => #{a.gsub(/[^ ]*#{num}[^ ]*|<.*>|[,;\/]/,'')}".gsub(/[\s_]+/,' ').strip
-# end

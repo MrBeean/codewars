@@ -52,14 +52,14 @@
   - [Framed_reflection](solutions/6kyu/Framed_reflection)
  
 - 5kyu
-  - https://www.codewars.com/kata/weight-for-weight  
-  - https://www.codewars.com/kata/rot13-1
-  - https://www.codewars.com/kata/find-the-smallest
-  - https://www.codewars.com/kata/phone-directory
-  - https://www.codewars.com/kata/simple-number-sequence
-  - https://www.codewars.com/kata/string-incrementer
-  - https://www.codewars.com/kata/valid-parentheses
-  - https://www.codewars.com/kata/directions-reduction
+  - [Weight_for_weight](solutions/5kyu/Weight_for_weight)
+  - [Rot13](solutions/5kyu/Rot13)
+  - [Find_the_smallest](solutions/5kyu/Find_the_smallest)
+  - [Phone_directory](solutions/5kyu/Phone_directory)
+  - [Simple_number_sequence](solutions/5kyu/Simple_number_sequence)
+  - [String_incrementer](solutions/5kyu/String_incrementer)
+  - [Valid_parentheses](solutions/5kyu/Valid_parentheses)
+  - [Directions_reduction](solutions/5kyu/Directions_reduction)
 
 - 4kyu
   - https://www.codewars.com/kata/strings-mix
