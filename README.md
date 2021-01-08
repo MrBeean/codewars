@@ -68,5 +68,5 @@
   - [Nesting_structure_comparison](solutions/4kyu/Nesting_structure_comparison))
 
 - 3kyu
-  - https://www.codewars.com/kata/calculator/train/ruby  
+  - [Calculator](solutions/3kyu/Calculator)
 ---
