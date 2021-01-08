@@ -24,50 +24,49 @@
 Ниже список выполненных заданий с момента как начал их фиксировать:
 
 - 8kyu
-  - https://www.codewars.com/kata/no-zeros-for-heros
-  - https://www.codewars.com/kata/5ae62fcf252e66d44d00008e
-  - [quarter_of_the_year](https://www.codewars.com/kata/5ce9c1000bab0b001134f5af)
+  - [No_zeros_for_heros](solutions/8kyu/No_zeros_for_heros)
+  - [Expressions_Matter](solutions/8kyu/Expressions_Matter)
+  - [Quarter_of_the_year](solutions/8kyu/Quarter_of_the_year)
   
 - 7kyu
-  - https://www.codewars.com/kata/the-lazy-startup-office
-  - https://www.codewars.com/kata/unlucky-days
-  - [isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
-  - [sum even numbers](https://www.codewars.com/kata/586beb5ba44cfc44ed0006c3)
-  - [palindrome_chain_length copy](https://www.codewars.com/kata/525f039017c7cd0e1a000a26)
-  - [valid_spacing](https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
-  - [unique_string_characters](https://www.codewars.com/kata/5a262cfb8f27f217f700000b)
-  - [max-min_arrays](https://www.codewars.com/kata/5a090c4e697598d0b9000004)
+  - [The_Lazy_Startup_Office](solutions/7kyu/The_Lazy_Startup_Office)
+  - [Unlucky_Days](solutions/7kyu/Unlucky_Days)
+  - [Isograms](solutions/7kyu/Isograms)
+  - [Sum even numbers](solutions/7kyu/Sum_even_numbers)
+  - [Palindrome_chain_length](solutions/7kyu/Palindrome_chain_length)
+  - [Valid_Spacing](solutions/7kyu/Valid_Spacing)
+  - [Unique_string_characters](solutions/7kyu/Unique_string_characters)
+  - [Max_min_arrays](solutions/7kyu/Max_min_arrays)
 
 - 6kyu
-  - https://www.codewars.com/kata/pascals-triangle
-  - https://www.codewars.com/kata/pascals-triangle-number-2
-  - https://www.codewars.com/kata/easy-balance-checking
-  - https://www.codewars.com/kata/meeting
-  - https://www.codewars.com/kata/duplicate-encoder
-  - https://www.codewars.com/kata/take-a-ten-minute-walk
-  - https://www.codewars.com/kata/mexican-wave
-  - https://www.codewars.com/kata/find-the-missing-term-in-an-arithmetic-progression
-  - https://www.codewars.com/kata/framed-reflection
-  - [simple_frequency_sort](https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc/ruby)
-  - [replace_with_alphabet_position](https://www.codewars.com/kata/546f922b54af40e1e90001da/javascript)
-  - [sort_the_odd](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/javascript)
+  - [Simple_frequency_sort](solutions/6kyu/Simple_frequency_sort)
+  - [Replace_with_alphabet_position](solutions/6kyu/Replace_with_alphabet_position)
+  - [Sort_the_odd](solutions/6kyu/Sort_the_odd)
+  - [Pascals_triangle](solutions/6kyu/Pascals_triangle)
+  - [Easy_balance_checking](solutions/6kyu/Easy_balance_checking)
+  - [Meeting](solutions/6kyu/Meeting)
+  - [Duplicate_encoder](solutions/6kyu/Duplicate_encoder)
+  - [Take_a_ten_minute_walk](solutions/6kyu/Take_a_ten_minute_walk)
+  - [Mexican_wave](solutions/6kyu/Mexican_wave)
+  - [Find_the_missing_term_in_an_arithmetic_progression](solutions/6kyu/Find_the_missing_term_in_an_arithmetic_progression)
+  - [Framed_reflection](solutions/6kyu/Framed_reflection)
  
 - 5kyu
-  - https://www.codewars.com/kata/weight-for-weight  
-  - https://www.codewars.com/kata/rot13-1
-  - https://www.codewars.com/kata/find-the-smallest
-  - https://www.codewars.com/kata/phone-directory
-  - https://www.codewars.com/kata/simple-number-sequence
-  - https://www.codewars.com/kata/string-incrementer
-  - https://www.codewars.com/kata/valid-parentheses
-  - https://www.codewars.com/kata/directions-reduction
+  - [Weight_for_weight](solutions/5kyu/Weight_for_weight)
+  - [Rot13](solutions/5kyu/Rot13)
+  - [Find_the_smallest](solutions/5kyu/Find_the_smallest)
+  - [Phone_directory](solutions/5kyu/Phone_directory)
+  - [Simple_number_sequence](solutions/5kyu/Simple_number_sequence)
+  - [String_incrementer](solutions/5kyu/String_incrementer)
+  - [Valid_parentheses](solutions/5kyu/Valid_parentheses)
+  - [Directions_reduction](solutions/5kyu/Directions_reduction)
 
 - 4kyu
-  - https://www.codewars.com/kata/strings-mix
-  - https://www.codewars.com/kata/snail
-  - https://www.codewars.com/kata/sum-of-intervals
-  - https://www.codewars.com/kata/nesting-structure-comparison   
+  - [Strings_mix](solutions/4kyu/Strings_mix)
+  - [Snail](solutions/4kyu/Snail)
+  - [Sum_of_intervals](solutions/4kyu/Sum_of_intervals)
+  - [Nesting_structure_comparison](solutions/4kyu/Nesting_structure_comparison))
 
 - 3kyu
-  - https://www.codewars.com/kata/calculator/train/ruby  
+  - [Calculator](solutions/3kyu/Calculator)
 ---
