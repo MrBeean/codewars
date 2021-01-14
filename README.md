@@ -16,7 +16,7 @@
 
 [Мой текущий ранг](https://www.codewars.com/users/MrBeean):
 
-<img src=https://www.codewars.com/users/MrBeean/badges/large>
+![](https://www.codewars.com/users/MrBeean/badges/large)
 
 ---
 
@@ -38,6 +38,7 @@
   - [Max_min_arrays](solutions/7kyu/Max_min_arrays)
   - [Tally_it_up](solutions/7kyu/Tally_it_up)
   - [Stones_on_the_table](solutions/7kyu/Stones_on_the_table)
+  - [Vowel_count](solutions/7kyu/Vowel_count)
 
 - 6kyu
   - [Simple_frequency_sort](solutions/6kyu/Simple_frequency_sort)
